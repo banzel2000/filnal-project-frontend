@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+ 
+  .paginationBttns {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid sandybrown;
+    color: sandybrown;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: sandybrown;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: sandybrown;
+  }
+  
+  .paginationDisabled a {
+    color: black;
+    background-color: darkgray;
+  }
+ 
+  .heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  
+  }
+  .img-holder{
+    margin: auto;
+    width: 156px;
+    height: 156px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  #input[type="file"] {
+    display: none;
+  }
+  #input2[type="file"] {
+    display: none;
+  }
+  .label{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .image-upload{
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    cursor: pointer;
+  }
